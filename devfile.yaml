@@ -1,0 +1,7 @@
+schemaVersion: 2.3.0
+metadata:
+  name: adventofcode
+components:
+  - name: universal-developer-image
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
