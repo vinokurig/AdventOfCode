@@ -5,3 +5,20 @@ components:
   - name: universal-developer-image
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
+commands:
+  - id: build
+    exec:
+      workingDir: ${PROJECT_SOURCE}
+      commandLine: mvn clean install
+      component: universal-developer-image
+      group:
+        isDefault: true
+        kind: build
+  - id: run
+    exec:
+      workingDir: ${PROJECT_SOURCE}
+      commandLine: mvn exec:java
+      component: universal-developer-image
+      group:
+        isDefault: true
+        kind: run

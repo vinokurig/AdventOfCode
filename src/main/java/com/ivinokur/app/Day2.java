@@ -36,7 +36,6 @@ public class Day2 {
         if (allIncreasingOrDecreasing(report) && differLessThenThree(report)) {
             return true;
         }
-        int index = 0;
         for (int i = 0; i < report.length; i++) {
             List<Integer> list = IntStream.of(report).boxed().collect(Collectors.toList());
             list.remove(i);
