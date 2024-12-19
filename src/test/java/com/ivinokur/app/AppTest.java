@@ -1,4 +1,4 @@
-package com.task1.app;
+package com.ivinokur.app;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
