@@ -11,5 +11,6 @@ public class Main {
         day2.part2();
         Day3 day3 = new Day3();
         day3.part1();
+        day3.part2();
     }
 }
