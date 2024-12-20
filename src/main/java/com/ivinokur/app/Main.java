@@ -9,5 +9,7 @@ public class Main {
         Day2 day2 = new Day2();
         day2.part1();
         day2.part2();
+        Day3 day3 = new Day3();
+        day3.part1();
     }
 }
